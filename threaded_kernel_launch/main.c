@@ -16,12 +16,12 @@
 #define N 1024 // NUmber of threads
 #define NUM_KERNELS 8 // Number of Kernels to launch
 
-int kernel(int a, int b)
+int kernel(int a, int b, int x)
 {
     // Perform computations for the kernel
-    total = a[x] + b[x];
+    int total = a + b;
 
-    printf("Kernel %d executed by thread %d\n", i, omp_get_thread_num());
+    printf("Kernel %d executed by thread %d\n", x, omp_get_thread_num());
 
     return total;
 }
@@ -35,7 +35,7 @@ int test_omp_thread_kernel(void)
     int errors = 0;
     int num_threads[N];
 
-    for (int x = 0; x < N; ++x) {
+    for (int x = 0; x < NUM_KERNELS; ++x) {
         a[x] = 1;
         b[x] = x;
         num_threads[x] = -1;
@@ -50,12 +50,12 @@ int test_omp_thread_kernel(void)
         {
             for (int x = 0; x < NUM_KERNELS; ++x) 
             {
-                total += kernel(a[x], b[x]);
+                total += kernel(a[x], b[x], x);
             }
         }
         #pragma omp for
         {
-            for (int x = 0; x < N; ++x) {
+            for (int x = 0; x < NUM_KERNELS; ++x) {
                 num_threads[x] = omp_get_num_threads();
             }
         }
@@ -64,7 +64,7 @@ int test_omp_thread_kernel(void)
     #pragma omp barrier 
 
 
-    for (int x = 0; x < N; ++x) {
+    for (int x = 0; x < NUM_KERNELS; ++x) {
         expect_total += a[x] + b[x];
     }
 
