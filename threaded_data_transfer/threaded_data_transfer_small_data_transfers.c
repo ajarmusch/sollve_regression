@@ -6,7 +6,7 @@
 #define N 1024
 
 int main(){
-    int number_of_threads = 1000;
+    int number_of_threads = 10000;
     int error = 0;
  
     int dataLarge[N];
@@ -31,23 +31,23 @@ int main(){
         for( int x = 0; x < N; x++){
         emptyLarge[x] = dataLarge[x];
         if(x < N/2){
-            dataMedium[x] = dataMedium[x];
+            emptyMedium[x] = dataMedium[x];
         }
         if(x < N/4){
-            dataSmall[x] = dataMedium[x];
+            emptySmall[x] = dataSmall[x];
         }
     }
     for( int x = 0; x < N; x++){
-        if(dataLarge[x] == emptyLarge[x]){
+        if(dataLarge[x] != emptyLarge[x]){
 	    error += 1;
 	}
         if(x < N/2){
-            if(dataMedium[x] == emptyMedium[x]){
+            if(dataMedium[x] != emptyMedium[x]){
 		error += 1;	    
 	    }
         }
         if(x < N/4){
-            if(dataSmall[x] == emptySmall[x]){
+            if(dataSmall[x] != emptySmall[x]){
 		error += 1;
 	    }
         }
