@@ -28,9 +28,12 @@ int main(){
 	    dataMedium[x] = x;
 	    testMinus -= dataMedium[x];
 	}
-	if(x < N/4){
+	if(x < 16){
 	    dataSmall[x] = x;
-	    testMultiply *= dataSmall[x];
+	    if(x != 0){
+		testMultiply *= dataSmall[x];
+		printf("%d\n", testMultiply);
+	    }
 	}
     }
 
@@ -40,8 +43,10 @@ int main(){
         if(x < N/2){
             minusReduction -= dataMedium[x];
         }
-        if(x < N/4){
-            multiplyReduction *= dataSmall[x];
+        if(x < 16){
+	    if(x != 0){	
+            	multiplyReduction *= dataSmall[x];
+	    }
         }
     }
 
@@ -57,6 +62,6 @@ int main(){
     }
 	
     printf("program created %d amount of errors\n", error);
-    printf(" testSum = %d. sumReduction = %d. testMinus = %d. minusReduction = %d, testSum = %d, sumReduction = %d\n", testSum, sumReduction, testMinus, minusReduction, testSum, sumReduction);
-    return error;
+    printf(" testSum = %d. sumReduction = %d. testMinus = %d. minusReduction = %d, testSum = %lld, sumReduction = %lld\n", testSum, sumReduction, testMinus, minusReduction, testMultiply, multiplyReduction);
+
 }
