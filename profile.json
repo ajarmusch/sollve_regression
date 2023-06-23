@@ -1,0 +1,282 @@
+{
+    "traceEvents": [
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 70474,
+            "dur": 77104,
+            "name": "targetKernel",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 70473,
+            "dur": 77106,
+            "name": "__tgt_target_kernel",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 154304,
+            "dur": 23214,
+            "name": "mappingBeforeTargetRegion",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 154295,
+            "dur": 74551,
+            "name": "targetKernel",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 154294,
+            "dur": 74555,
+            "name": "__tgt_target_kernel",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 228857,
+            "dur": 24197,
+            "name": "mappingBeforeTargetRegion",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 253068,
+            "dur": 8185,
+            "name": "mappingAfterTargetRegion",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 228852,
+            "dur": 32409,
+            "name": "targetKernel",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457629,
+            "ph": "X",
+            "ts": 228851,
+            "dur": 32410,
+            "name": "__tgt_target_kernel",
+            "args": {
+                "detail": ";unknown;unknown;0;0;;"
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457630,
+            "ph": "X",
+            "ts": 0,
+            "dur": 184070,
+            "name": "Total __tgt_target_kernel",
+            "args": {
+                "count": 3,
+                "avg ms": 61
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457631,
+            "ph": "X",
+            "ts": 0,
+            "dur": 184063,
+            "name": "Total targetKernel",
+            "args": {
+                "count": 3,
+                "avg ms": 61
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457632,
+            "ph": "X",
+            "ts": 0,
+            "dur": 47520,
+            "name": "Total mappingBeforeTargetRegion",
+            "args": {
+                "count": 3,
+                "avg ms": 15
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457633,
+            "ph": "X",
+            "ts": 0,
+            "dur": 8224,
+            "name": "Total mappingAfterTargetRegion",
+            "args": {
+                "count": 3,
+                "avg ms": 2
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457634,
+            "ph": "X",
+            "ts": 0,
+            "dur": 221,
+            "name": "Total targetDataMapper",
+            "args": {
+                "count": 2,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457635,
+            "ph": "X",
+            "ts": 0,
+            "dur": 189,
+            "name": "Total __tgt_target_data_end_mapper",
+            "args": {
+                "count": 1,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457636,
+            "ph": "X",
+            "ts": 0,
+            "dur": 64,
+            "name": "Total __tgt_register_lib",
+            "args": {
+                "count": 1,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457637,
+            "ph": "X",
+            "ts": 0,
+            "dur": 36,
+            "name": "Total Initiate Kernel Launch",
+            "args": {
+                "count": 3,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457638,
+            "ph": "X",
+            "ts": 0,
+            "dur": 34,
+            "name": "Total __tgt_target_data_begin_mapper",
+            "args": {
+                "count": 1,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457639,
+            "ph": "X",
+            "ts": 0,
+            "dur": 3,
+            "name": "Total omp_get_initial_device",
+            "args": {
+                "count": 5,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457640,
+            "ph": "X",
+            "ts": 0,
+            "dur": 2,
+            "name": "Total omp_get_num_devices",
+            "args": {
+                "count": 11,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457641,
+            "ph": "X",
+            "ts": 0,
+            "dur": 2,
+            "name": "Total __tgt_unregister_lib",
+            "args": {
+                "count": 1,
+                "avg ms": 0
+            }
+        },
+        {
+            "pid": 457629,
+            "tid": 457642,
+            "ph": "X",
+            "ts": 0,
+            "dur": 0,
+            "name": "Total __tgt_register_requires",
+            "args": {
+                "count": 1,
+                "avg ms": 0
+            }
+        },
+        {
+            "cat": "",
+            "pid": 457629,
+            "tid": 457629,
+            "ts": 0,
+            "ph": "M",
+            "name": "process_name",
+            "args": {
+                "name": "libomptarget"
+            }
+        },
+        {
+            "cat": "",
+            "pid": 457629,
+            "tid": 457629,
+            "ts": 0,
+            "ph": "M",
+            "name": "thread_name",
+            "args": {
+                "name": "threaded_kernel"
+            }
+        }
+    ],
+    "beginningOfTime": 1686860525538283
+}

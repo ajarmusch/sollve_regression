@@ -1,0 +1,271 @@
+{
+    "beginningOfTime": 1687274414477658,
+    "traceEvents": [
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;main;95;5;;"
+            },
+            "dur": 76331,
+            "name": "targetKernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 69857
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;main;95;5;;"
+            },
+            "dur": 76332,
+            "name": "__tgt_target_kernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 69856
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;test_omp_thread_kernel;57;17;;"
+            },
+            "dur": 22604,
+            "name": "mappingBeforeTargetRegion",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 152485
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;test_omp_thread_kernel;57;17;;"
+            },
+            "dur": 43487,
+            "name": "targetKernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 152478
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;test_omp_thread_kernel;57;17;;"
+            },
+            "dur": 43489,
+            "name": "__tgt_target_kernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 152477
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;test_omp_thread_kernel;57;17;;"
+            },
+            "dur": 985,
+            "name": "mappingAfterTargetRegion",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 195990
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;test_omp_thread_kernel;57;17;;"
+            },
+            "dur": 1012,
+            "name": "targetKernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 195970
+        },
+        {
+            "args": {
+                "detail": ";/usa/jarmusch/sollve_regression/threaded_kernel_launch/main.c;test_omp_thread_kernel;57;17;;"
+            },
+            "dur": 1014,
+            "name": "__tgt_target_kernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 195968
+        },
+        {
+            "args": {
+                "avg ms": 40,
+                "count": 3
+            },
+            "dur": 120836,
+            "name": "Total __tgt_target_kernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523904,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 40,
+                "count": 3
+            },
+            "dur": 120830,
+            "name": "Total targetKernel",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523905,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 7,
+                "count": 3
+            },
+            "dur": 22712,
+            "name": "Total mappingBeforeTargetRegion",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523906,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 3
+            },
+            "dur": 1023,
+            "name": "Total mappingAfterTargetRegion",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523907,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 2
+            },
+            "dur": 187,
+            "name": "Total targetDataMapper",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523908,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 1
+            },
+            "dur": 156,
+            "name": "Total __tgt_target_data_end_mapper",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523909,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 1
+            },
+            "dur": 56,
+            "name": "Total __tgt_register_lib",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523910,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 1
+            },
+            "dur": 33,
+            "name": "Total __tgt_target_data_begin_mapper",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523911,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 3
+            },
+            "dur": 31,
+            "name": "Total Initiate Kernel Launch",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523912,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 5
+            },
+            "dur": 3,
+            "name": "Total omp_get_initial_device",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523913,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 11
+            },
+            "dur": 2,
+            "name": "Total omp_get_num_devices",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523914,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 1
+            },
+            "dur": 2,
+            "name": "Total __tgt_unregister_lib",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523915,
+            "ts": 0
+        },
+        {
+            "args": {
+                "avg ms": 0,
+                "count": 1
+            },
+            "dur": 0,
+            "name": "Total __tgt_register_requires",
+            "ph": "X",
+            "pid": 523903,
+            "tid": 523916,
+            "ts": 0
+        },
+        {
+            "args": {
+                "name": "libomptarget"
+            },
+            "cat": "",
+            "name": "process_name",
+            "ph": "M",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 0
+        },
+        {
+            "args": {
+                "name": "threaded_kernel"
+            },
+            "cat": "",
+            "name": "thread_name",
+            "ph": "M",
+            "pid": 523903,
+            "tid": 523903,
+            "ts": 0
+        }
+    ]
+}
