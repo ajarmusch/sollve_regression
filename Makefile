@@ -15,7 +15,7 @@ all: clean MessageDisplay compile run
 .PHONY: compile
 compile: MessageDisplay
 	mkdir bin
-	$(CC) -I./include -lm -O3 -fopenmp --offload-arch=native $(CWD)/$(DIR)/main.c -o bin/$(DIR).o
+	$(CC) -I./include -lm -O3 -fopenmp --offload-arch=native $(CWD)/openmp/$(DIR)/main.c -o bin/$(DIR).o
 	@echo "====COMPILE DONE===="
 
 .PHONY: run

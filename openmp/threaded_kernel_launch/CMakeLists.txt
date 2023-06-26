@@ -1,0 +1,12 @@
+# set(DEST_SRC_FILE "${CMAKE_CURRENT_SOURCE_DIR}/main.c")
+# get_filename_component(CURRENT_DIR_NAME ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+# set(DEST_BIN_FILE "${CURRENT_DIR_NAME}.exe")
+# add_executable(${DEST_BIN_FILE} ${DEST_SRC_FILE})
+# target_compile_options(${DEST_BIN_FILE} PUBLIC "SHELL:${OPENMP_CMP_OPTIONS}")
+# target_link_options(${DEST_BIN_FILE} PUBLIC "SHELL:${OPENMP_CMP_OPTIONS}")
+# target_compile_definitions(${DEST_BIN_FILE} PRIVATE "__OPEN_MP__")
+# if ( DEFINED EXTRA_OMP_LIBS )
+#   target_link_libraries(${DEST_BIN_FILE} PRIVATE ${EXTRA_OMP_LIBS})
+# endif()
+# target_include_directories(${DEST_BIN_FILE} PRIVATE "${CMAKE_SOURCE_DIR}/include")
+
